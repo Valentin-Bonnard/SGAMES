@@ -1,0 +1,93 @@
+/* 
+    Created on : 6 août 2015, 22:26:04
+    Author     : Bonnard_Valentin
+*/
+
+.background {
+    -fx-background-color: #FFFFFF;
+}
+
+/* -------------------------------------------------
+* Button 
+-------------------------------------------------- */
+
+.button {
+    -fx-padding: 4 20 5 20;   
+    -fx-border-color: #B2955D;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #deb887;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 9pt;
+    -fx-text-fill: black;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #87adde;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: #ab92e1;
+  -fx-text-fill: black;
+}
+
+.button:focused {
+    -fx-border-color: #87adde;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+
+
+/* -------------------------------------------------
+* Label
+-------------------------------------------------- */
+
+
+.label {
+    -fx-font-size: 9pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: #293133;
+    -fx-opacity: 0.6;
+}
+
+.label-bright {
+    -fx-font-size: 9pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: #293133;
+    -fx-opacity: 1;
+}
+
+#lbl_warning2 {
+    -fx-font-size: 9pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: red;
+    -fx-opacity: 0.6;
+}
+
+
+.label-header {
+    -fx-font-size: 9pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: #293133;
+    -fx-opacity: 1;
+}
+
+

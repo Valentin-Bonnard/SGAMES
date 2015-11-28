@@ -1,0 +1,7 @@
+CPU: Intel Core i3 2100 3.10 GHz or AMD A8 3870K 3.0 GHz
+CPU Speed: Info
+RAM: 4 GB
+OS: Windows 7 SP1
+Video Card: NVIDIA GeForce GTX 465 or higher, ATI Radeon HD 6870 or higher
+Sound Card: Yes
+Free Disk Space: 14 GB 

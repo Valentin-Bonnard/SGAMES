@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="288.0" prefWidth="478.0" styleClass="background, label-bright" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Application.AboutController">
+  <children>
+    <Separator layoutX="0.0" layoutY="202.0" prefWidth="467.100830078125" />
+    <ImageView fitHeight="163.62499410712238" fitWidth="132.10092163085938" layoutX="335.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../Ressources/logijeu.PNG" />
+      </image>
+    </ImageView>
+    <Label alignment="CENTER_LEFT" layoutX="26.0" layoutY="14.0" prefHeight="35.0" prefWidth="122.0" text="LogiJeu">
+      <font>
+        <Font name="System Bold Italic" size="25.0" />
+      </font>
+    </Label>
+    <Label layoutX="26.0" layoutY="70.0" prefWidth="121.1009521484375" text="Versions 3.0.0.0" />
+    <Label fx:id="lbl_info" layoutX="26.0" layoutY="107.0" prefHeight="75.0" prefWidth="275.0" text="Label" />
+    <Pane layoutX="0.0" layoutY="204.0" prefHeight="84.0" prefWidth="478.0" styleClass="pane">
+      <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DARKGREY" height="84.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="478.0" />
+        <Label fx:id="info_juridique" layoutX="21.0" layoutY="11.0" prefHeight="59.0" prefWidth="334.0" text="Label" />
+        <Button fx:id="btn_OK" layoutX="362.0" layoutY="41.0" mnemonicParsing="false" onAction="#close_about" prefWidth="92.0" text="OK" />
+      </children>
+    </Pane>
+    <Hyperlink layoutX="149.0" layoutY="19.0" minHeight="15.970703125" onAction="#info_juris" prefHeight="26.0" prefWidth="181.0" text="Information juridique" />
+  </children>
+  <stylesheets>
+    <URL value="@../Ressources/Metro.css" />
+  </stylesheets>
+</AnchorPane>

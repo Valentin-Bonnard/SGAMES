@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="425.0" prefWidth="947.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Application.Help_insert">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="472.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1017.9998779296875" />
+    <Label layoutX="14.0" layoutY="13.0" text="Your configuration is not yet noted here, help us to improve our services :">
+      <textFill>
+        <Color blue="0.867" green="0.729" red="0.600" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Label layoutX="314.0" layoutY="55.0" prefWidth="232.0" text="Motherboard :" textFill="$x1" />
+    <Label layoutX="14.0" layoutY="55.0" prefWidth="201.0" text="Processor :" textFill="$x1" />
+    <Label layoutX="675.0" layoutY="159.0" prefWidth="242.0001220703125" text="Games :" textFill="$x1" />
+    <Label layoutX="311.0" layoutY="159.0" prefWidth="232.0" text="OS :" textFill="$x1" />
+    <Label layoutX="18.0" layoutY="159.0" prefWidth="197.0" text="RAM (GB) :" textFill="$x1" />
+    <Label layoutX="18.0" layoutY="243.0" prefWidth="529.0000999999975" text="Mail : *" textFill="$x1" />
+    <Label layoutX="15.0" layoutY="316.0" prefWidth="197.0" text="Cell phone number :" textFill="$x1" />
+    <Label layoutX="675.0" layoutY="55.0" prefWidth="242.0" text="Graphical card :" textFill="$x1" />
+    <TextField fx:id="txtProcesseurSuggestion" layoutX="15.0" layoutY="89.0" prefWidth="201.0" />
+    <TextField fx:id="txtCGSuggestion" layoutX="674.0" layoutY="89.0" prefWidth="242.0" />
+    <TextField fx:id="txtCASuggestion" layoutX="314.0" layoutY="89.0" prefWidth="232.0" />
+    <TextField fx:id="txtGAMESSuggestion" layoutX="675.0" layoutY="188.0" prefWidth="242.0" />
+    <TextField fx:id="txtOSSuggestion" layoutX="311.0" layoutY="188.0" prefWidth="232.0" />
+    <TextField fx:id="txtRAMSuggestion" layoutX="16.0" layoutY="188.0" prefWidth="201.0" />
+    <TextField fx:id="txtMailSuggestion" layoutX="16.0" layoutY="266.0" prefWidth="529.0" />
+    <TextField fx:id="txtPhoneSuggestion" layoutX="16.0" layoutY="344.0" prefWidth="200.0" />
+    <RadioButton fx:id="CbPhone" layoutX="250.0" layoutY="347.0" mnemonicParsing="false" prefWidth="426.0" text="I want to be notified by phone." textFill="#51d2ff" />
+    <Button fx:id="btnOK" layoutX="813.0" layoutY="267.0" mnemonicParsing="false" onAction="#Validation" prefWidth="104.0" text="OK" />
+  </children>
+</AnchorPane>

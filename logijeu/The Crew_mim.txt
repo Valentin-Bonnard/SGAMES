@@ -1,0 +1,5 @@
+CPU: Intel Core 2 Quad Q9300 @ 2.5 GHz / AMD Athlon II X4 620 @ 2.6 GHz or better
+CPU Speed: Info
+RAM: 4 GB
+OS: Windows 7 SP1, Windows 8, Windows 8.1 (64bit)
+Video Card: NVIDIA GeForce GTX 260 or AMD Radeon HD 4870 (512MB VRAM with Shader Model 4.0 or higher) 

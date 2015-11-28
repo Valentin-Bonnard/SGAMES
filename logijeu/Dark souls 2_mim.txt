@@ -1,0 +1,7 @@
+CPU: AMD Phenom II X2 555 3.2 GHz or Intel Pentium Core 2 Duo E8500 3.17 GHz
+CPU Speed: 	Info
+RAM: 2 GB
+OS: Windows XP SP3, Vista SP2, Windows 7 SP1, Windows 8
+Video Card: NVIDIA GeForce 9600 GT, ATI Radeon HD 5870
+Sound Card: Yes
+Free Disk Space: 14 GB 

@@ -1,0 +1,7 @@
+CPU: Intel Core i3-530 @ 2.93 GHz / AMD Phenom II X4 810 @ 2.60 GHz
+CPU Speed: Info
+RAM: 6 GB
+OS: Windows 7 64-Bit / Windows 8 64-Bit / Windows 8.1 64-Bit
+Video Card: NVIDIA GeForce GTS 450 (1 GB) or AMD Radeon HD 5870 (1 GB)
+Sound Card: Yes
+Free Disk Space: 55 GB

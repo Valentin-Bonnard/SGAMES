@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="425.0" prefWidth="1178.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Application.Result_Content1">
+  <children>
+    <Rectangle arcHeight="7.0" arcWidth="5.0" fill="WHITE" height="474.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1178.0" />
+    <TableView fx:id="table_config" layoutX="26.0" layoutY="65.0" prefHeight="200.0" prefWidth="930.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="132.0" text="Column X" fx:id="column1" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="125.0" text="Column X" fx:id="column2" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="124.0" text="Column X" fx:id="column3" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="122.0" text="Column X" fx:id="column4" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="120.0" text="Column X" fx:id="column5" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="120.0" text="Column X" fx:id="column6" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="89.0" text="Column X" fx:id="column7" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="97.0" text="Column X" fx:id="column8" />
+      </columns>
+    </TableView>
+    <Label fx:id="config" layoutX="26.0" layoutY="20.0" prefWidth="759.0" text="" />
+    <Label fx:id="lbl_couleur" layoutX="800.0" layoutY="20.0" prefWidth="68.0" text="Label" />
+    <Hyperlink fx:id="hp_materiel" layoutX="26.0" layoutY="308.0" onAction="#hp_materiel" text="http://www.materiel.net/" />
+    <Hyperlink fx:id="hp_ldlc" layoutX="26.0" layoutY="273.0" onAction="#hp_ldlc" text="http://www.ldlc.com/" />
+    <Hyperlink fx:id="hp_topachat" layoutX="26.0" layoutY="343.0" onAction="#hp_topachat" text="http://www.topachat.com/accueil/index.php" />
+    <Label layoutX="26.0" layoutY="415.0" text="If this configurations doesn't exsist, please submit " />
+    <Hyperlink layoutX="371.0" layoutY="412.0" onAction="#insert_config_open" text="Please,  click Here" />
+    <TabPane fx:id="tab_recommandation" layoutX="504.0" layoutY="265.0" prefHeight="200.0" prefWidth="452.0" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab text="Minimum">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="168.9998779296875" prefWidth="364.0">
+              <children>
+                <TextArea fx:id="txt_minimum" prefHeight="169.0" prefWidth="364.0" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Recommended">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <TextArea fx:id="txt_recommended" prefHeight="169.0" prefWidth="364.0" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+    <VBox fx:id="box" layoutX="868.0" layoutY="20.0" prefHeight="22.0" prefWidth="82.0" />
+  </children>
+</AnchorPane>

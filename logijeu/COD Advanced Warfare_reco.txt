@@ -1,0 +1,7 @@
+CPU: Intel Core i5-2500K @ 3.30GHz
+CPU Speed: Info
+RAM: 8 GB
+OS: Windows 7 64-Bit / Windows 8 64-Bit / Windows 8.1 64-Bit
+Video Card: NVIDIA GeForce GTX 760 (4 GB)
+Sound Card: Yes
+Free Disk Space:  55 GB

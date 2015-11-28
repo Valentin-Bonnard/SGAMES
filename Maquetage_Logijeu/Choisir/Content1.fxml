@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="425.0" prefWidth="807.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Application.Content1">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="473.9998779296875" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1019.0" />
+    <ComboBox fx:id="comboProcessor" layoutX="14.0" layoutY="63.0" prefHeight="21.0" prefWidth="188.0" promptText="Select Processor">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="comboMotherboard" layoutX="318.0" layoutY="63.0" prefHeight="21.0" prefWidth="188.0" promptText="Select Motherboard">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="comboGC" layoutX="585.0" layoutY="63.0" prefHeight="21.0" prefWidth="188.0" promptText="Select Graphical card">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="comboRam" layoutX="14.0" layoutY="192.0" prefHeight="21.0" prefWidth="188.0" promptText="Select Memory">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="comboOS" layoutX="318.0" layoutY="192.0" prefHeight="21.0" prefWidth="188.0" promptText="Select OS">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="comboGames" layoutX="318.0" layoutY="334.0" prefHeight="21.0" prefWidth="188.0" promptText="Select Games">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Button fx:id="btn_Result" layoutX="626.0" layoutY="334.0" mnemonicParsing="false" onAction="#result_search" prefWidth="79.0" text="Result" />
+    <Label layoutX="14.0" layoutY="33.0" prefWidth="71.0" text="Processor :" />
+    <Label layoutX="318.0" layoutY="34.0" prefWidth="188.0" text="Motherboard" />
+    <Label layoutX="585.0" layoutY="32.0" prefHeight="21.0" prefWidth="188.0" text="Graphical card" />
+    <Label layoutX="14.0" layoutY="158.0" prefWidth="71.0" text="Memory(GB)" />
+    <Label layoutX="318.0" layoutY="166.0" prefWidth="71.0" text="OS" />
+    <Label layoutX="318.0" layoutY="307.0" prefWidth="71.0" text="Games" />
+    <Label layoutX="14.0" layoutY="307.0" prefWidth="71.0" text="Software" />
+    <ComboBox fx:id="comboSoftware" layoutX="14.0" layoutY="334.0" prefHeight="21.0" prefWidth="188.0" promptText="Select Software">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Label layoutX="248.0" layoutY="337.0" text="or" />
+  </children>
+</AnchorPane>

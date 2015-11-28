@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" minHeight="242.0" prefHeight="242.0" prefWidth="556.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Application.Choice_auto">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="246.0" layoutX="0.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" width="556.0" />
+    <ComboBox id="comboSoftware" fx:id="combo_software" layoutX="32.0" layoutY="114.0" prefHeight="21.0" prefWidth="188.0" promptText="Select Software">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <ComboBox id="comboGames" fx:id="combo_games" layoutX="336.0" layoutY="114.0" prefHeight="21.0" prefWidth="188.0" promptText="Select Games">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Label layoutX="336.0" layoutY="87.0" prefWidth="71.0" text="Games" />
+    <Label layoutX="32.0" layoutY="87.0" prefWidth="71.0" text="Software" />
+    <Label layoutX="266.0" layoutY="117.0" text="or" />
+    <Button fx:id="back_btn" layoutX="86.0" layoutY="181.0" mnemonicParsing="false" onAction="#back" prefWidth="81.0" text="&lt;-" />
+    <Button fx:id="next_btn" layoutX="390.0" layoutY="182.0" mnemonicParsing="false" onAction="#next" prefWidth="81.0" text="-&gt;" />
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="14.0" prefHeight="48.0" prefWidth="524.0" text="Make your choices :" />
+  </children>
+  <stylesheets>
+    <URL value="@../Ressources/Metro.css" />
+  </stylesheets>
+</AnchorPane>

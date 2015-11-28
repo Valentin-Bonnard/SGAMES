@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="584.0" prefWidth="563.0" styleClass="background, label-header" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Contollers_Connection.Create_account">
+  <children>
+    <Label layoutX="14.0" layoutY="20.0" prefWidth="223.0" text="&lt;&lt; ACCOUNT DETAILS &gt;&gt;" />
+    <Label layoutX="14.0" layoutY="322.0" prefWidth="223.0" text="&lt;&lt; ACCOUNT LOGIN &gt;&gt;" />
+    <Label layoutX="14.0" layoutY="469.0" prefWidth="223.0" text="&lt;&lt; WHEN YOU ARE FINISHED &gt;&gt;" />
+    <Button fx:id="btnSubmit_registration" layoutX="171.0" layoutY="519.0" mnemonicParsing="false" onAction="#registration_account" text="SUBMIT REGISTRATION" />
+    <Button fx:id="btn_Back" layoutX="449.0" layoutY="519.0" mnemonicParsing="false" onAction="#back" text="BACK" />
+    <Label layoutX="310.0" layoutY="50.0" prefWidth="191.0" text="Last Name :" />
+    <Label layoutX="14.0" layoutY="50.0" prefWidth="223.0" text="First Name :" />
+    <Label layoutX="14.0" layoutY="108.0" prefWidth="223.0" text="Mail :" />
+    <Label layoutX="14.0" layoutY="171.0" prefWidth="200.0" text="City :" />
+    <Label layoutX="299.0" layoutY="171.0" prefWidth="200.0" text="Country :" />
+    <Label layoutX="14.0" layoutY="231.0" prefWidth="223.0" text="Address :" />
+    <TextField fx:id="txt_prenom" layoutX="14.0" layoutY="77.0" prefWidth="200.0" />
+    <TextField fx:id="txt_nom" layoutX="310.0" layoutY="77.0" prefWidth="189.0" />
+    <TextField fx:id="txt_mail" layoutX="14.0" layoutY="133.0" prefWidth="487.0" />
+    <TextField fx:id="txt_ville" layoutX="14.0" layoutY="198.0" prefWidth="200.0" />
+    <TextField fx:id="txt_pays" layoutX="299.0" layoutY="198.0" prefWidth="200.0" />
+    <TextField fx:id="txt_adresse" layoutX="14.0" layoutY="258.0" prefWidth="485.0" />
+    <Label layoutX="21.0" layoutY="417.0" prefWidth="223.0" text="Choose your Password :" />
+    <Label layoutX="21.0" layoutY="363.0" text="Choose your Username :" />
+    <TextField fx:id="txt_password" layoutX="171.0" layoutY="414.0" prefWidth="330.0" />
+    <PasswordField fx:id="txt_username" layoutX="171.0" layoutY="360.0" prefWidth="330.0" />
+  </children>
+  <stylesheets>
+    <URL value="@../Ressources/Css_Connection.css" />
+  </stylesheets>
+</AnchorPane>

@@ -1,0 +1,7 @@
+CPU: Intel Core 2 Duo 2.4 GHz or AMD Athlon 64 X2 5600+ 2.8GHz
+CPU Speed: Info
+RAM: 4 GB
+OS: Windows 7
+Video Card: NVIDIA GeForce GTX 260 or ATI Radeon HD 4870
+Sound Card: Yes
+Free Disk Space: 12 GB 

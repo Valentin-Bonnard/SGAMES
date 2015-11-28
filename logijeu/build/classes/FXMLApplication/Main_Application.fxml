@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="489.0" prefWidth="966.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Application.Main_Application">
+  <children>
+    <BorderPane prefHeight="489.0" prefWidth="836.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <center>
+        <AnchorPane fx:id="content" prefHeight="457.0" prefWidth="898.0" />
+      </center>
+      <left>
+        <Pane fx:id="pane" prefHeight="457.0" prefWidth="54.0">
+          <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BURLYWOOD" height="475.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="54.0" />
+            <Hyperlink fx:id="client_profil" layoutX="9.0" layoutY="326.0" onAction="#profil" prefHeight="25.9609375" prefWidth="37.0" text="Profil" />
+            <Hyperlink fx:id="deco" layoutX="13.0" layoutY="414.0" onAction="#deco" prefWidth="28.0" text="&lt;-]" />
+            <Hyperlink fx:id="autom" layoutX="13.0" layoutY="373.0" onAction="#automatic" prefWidth="28.0" text="--&gt;" />
+          </children>
+        </Pane>
+      </left>
+      <top>
+        <MenuBar fx:id="menubar" prefHeight="32.0" prefWidth="836.0">
+          <menus>
+            <Menu mnemonicParsing="false" text="Action">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#new_search" text="Nouvelle recherche" fx:id="btn_new_search" />
+                <MenuItem mnemonicParsing="false" onAction="#close_Application" text="Close" fx:id="btn_close" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Setting">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#Programm_setting_open" text="Program setting" fx:id="btn_setting" />
+                <MenuItem mnemonicParsing="false" onAction="#componants_setting" text="Componants setting" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#open_about" text="About" fx:id="btn_about" />
+                <MenuItem mnemonicParsing="false" onAction="#Help_insert" text="Help" fx:id="btn_help" />
+              </items>
+            </Menu>
+          </menus>
+        </MenuBar>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>

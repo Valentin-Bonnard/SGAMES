@@ -1,0 +1,5 @@
+CPU: Intel Core i5 750 @ 2.66 GHz / AMD Phenom II X4 940 @ 3.0 GHz or better
+CPU Speed: Info
+RAM: 8 GB
+OS: Windows 7 SP1, Windows 8, Windows 8.1 (64bit)
+Video Card: NVIDIA GeForce GTX 580 or AMD Radeon HD 6870 (1024MB VRAM with Shader Model 5.0 or higher) 

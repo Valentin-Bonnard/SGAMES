@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="819.9609375" prefWidth="577.0" styleClass="background" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Application.Programm_setting">
+  <children>
+    <TabPane prefHeight="770.0000219726562" prefWidth="464.0" styleClass="background" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="49.96" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <tabs>
+        <Tab text="Your Componants">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="740.0" prefWidth="464.0000999999975" styleClass="anchorpane">
+              <children>
+                <Button fx:id="btn_process" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#process_compo" text="Go" />
+                <Button fx:id="btn_print" layoutX="14.0" layoutY="698.0" mnemonicParsing="false" onAction="#print_pdf" text="Print" />
+                <ProgressBar fx:id="progressbar" layoutX="78.0" layoutY="20.0" prefWidth="386.0" progress="0.0" />
+                <Button fx:id="Cancel" layoutX="473.0" layoutY="15.0" mnemonicParsing="false" prefWidth="90.0" text="Cancel" />
+                <TextArea fx:id="txt_show" layoutX="14.0" layoutY="52.0" prefHeight="628.0" prefWidth="549.0" wrapText="true" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Language">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="693.0" prefWidth="464.0">
+              <children>
+                <ImageView fitHeight="78.0" fitWidth="104.0" layoutX="28.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                    <Image url="@../Ressources/logijeu.PNG" />
+                  </image>
+                </ImageView>
+                <Label fx:id="info" layoutX="134.0" layoutY="39.0" prefHeight="78.0" prefWidth="408.0" text="Label" />
+                <Separator layoutX="14.0" layoutY="176.0" prefWidth="549.0" />
+                <ComboBox fx:id="combo_box" layoutX="28.0" layoutY="285.0" prefHeight="21.0" prefWidth="521.0" promptText="English">
+                  <items>
+                    <FXCollections fx:factory="observableArrayList">
+                      <String fx:value="Item 1" />
+                      <String fx:value="Item 2" />
+                      <String fx:value="Item 3" />
+                    </FXCollections>
+                  </items>
+                </ComboBox>
+                <Label layoutX="28.0" layoutY="222.0" prefWidth="408.0" text="Select language" />
+                <Button fx:id="click_me" layoutX="236.0" layoutY="349.0" mnemonicParsing="false" onAction="#joke" prefWidth="105.0" text="click_me" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+    <Button fx:id="btn_cancel" layoutX="450.0" layoutY="785.0" mnemonicParsing="false" onAction="#close_setting" prefWidth="97.0" text="Cancel" />
+    <Separator layoutX="14.0" layoutY="770.0" prefWidth="549.0" />
+  </children>
+  <stylesheets>
+    <URL value="@../Ressources/Metro.css" />
+  </stylesheets>
+</AnchorPane>

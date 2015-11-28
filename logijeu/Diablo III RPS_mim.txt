@@ -1,0 +1,7 @@
+CPU: Intel Pentium D or AMD Athlon 64 X2
+CPU Speed: Info
+RAM: 2 GB
+OS: Windows XP
+Video Card: NVIDIA GeForce 7800 GT or ATI Radeon x1950 Pro
+Sound Card: Yes
+Free Disk Space: 12 GB 

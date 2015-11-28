@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="1003.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller_Administrator.Administrator">
+  <children>
+    <BorderPane prefHeight="400.0" prefWidth="827.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <center>
+        <TableView id="table" fx:id="tableAdministrator" prefHeight="200.0" prefWidth="200.0">
+          <columns>
+            <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="125.0" text="" fx:id="column1" />
+            <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="121.0" text="" fx:id="column2" />
+            <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="100.0" text="" fx:id="column3" />
+            <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="106.0" text="" fx:id="column4" />
+            <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="135.0" text="" fx:id="column5" />
+            <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="102.0" text="" fx:id="column6" />
+            <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="143.0" text="" fx:id="column7" />
+            <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="168.0" text="" fx:id="column8" />
+          </columns>
+        </TableView>
+      </center>
+      <top>
+        <ToolBar>
+          <items>
+            <Button fx:id="btn_Voir_Client" mnemonicParsing="false" onAction="#infoclient" prefWidth="90.0" text="Client" />
+            <Button fx:id="btn_deco" mnemonicParsing="false" onAction="#deconnexion" text="Deconnexion" />
+          </items>
+        </ToolBar>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>
